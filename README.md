@@ -6,11 +6,11 @@ This is a simple Tic-Tac-Toe (XO) game implemented using HTML, CSS, and JavaScri
 
 ### Desktop
 
-![Desktop Preview](./images/desktop.png)
+![Desktop Preview](./src/images/desktop.png)
 
 ### Mobile
 
-![Mobile Preview](./images/mobile.png)
+![Mobile Preview](./src/images/mobile.png)
 
 
 ## Features
