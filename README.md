@@ -1,4 +1,4 @@
-# Tic-Tac-Toe (XO) game
+# Javascript XO Game
 
 This is a simple Tic-Tac-Toe (XO) game implemented using HTML, CSS, and JavaScript. The game allows two players to play against each other on a 3x3 grid.
 
