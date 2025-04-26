@@ -10,7 +10,7 @@ This is a **Tic-Tac-Toe (XO) game** implemented using **HTML, CSS, and JavaScrip
 ### 📱 **Mobile**  
 ![Mobile Preview](./src/images/mobile.png)  
 
-## 🚀 Features  
+## 🚀 Features 
 
 - ✅ **Responsive Design:** The game adapts to **all screen sizes**.  
 - 🎮 **Interactive Game Board:** Players can **place X or O** by clicking on cells.  
