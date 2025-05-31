@@ -5,18 +5,18 @@ This is a **Tic-Tac-Toe (XO) game** implemented using **HTML, CSS, and JavaScrip
 ## 👀 Preview
 
 ### 💻 **Desktop**
-![Desktop Preview](./src/images/desktop.png)  
+![Desktop Preview](./src/images/desktop.png)
 
 ### 📱 **Mobile**
-![Mobile Preview](./src/images/mobile.png)  
+![Mobile Preview](./src/images/mobile.png)
 
 ## 🚀 Features 
 
-- ✅ **Responsive Design:** The game adapts to **all screen sizes**.  
-- 🎮 **Interactive Game Board:** Players can **place X or O** by clicking on cells.  
-- 🏆 **Winner Highlight:** The **winning combination** is highlighted in **green**.  
-- 🤝 **Draw Detection:** If the game ends in a draw, a **message is displayed**.  
-- 🔄 **Play Again Button:** A **restart button** allows players to reset the game and play again.  
+- ✅ **Responsive Design:** The game adapts to **all screen sizes**.
+- 🎮 **Interactive Game Board:** Players can **place X or O** by clicking on cells.
+- 🏆 **Winner Highlight:** The **winning combination** is highlighted in **green**.
+- 🤝 **Draw Detection:** If the game ends in a draw, a **message is displayed**.
+- 🔄 **Play Again Button:** A **restart button** allows players to reset the game and play again.
 
 ## 🛠️ Installation  
 
