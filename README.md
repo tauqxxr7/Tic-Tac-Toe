@@ -8,9 +8,13 @@
 
 [![Source Code](https://img.shields.io/badge/Source_Code-111827?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tauqxxr7/Tic-Tac-Toe)
 
-## Overview
+## Problem
 
-This project is a lightweight Tic-Tac-Toe implementation focused on clean gameplay, responsive styling, and browser-based interaction. It is a smaller JavaScript project in the portfolio, but it still demonstrates front-end fundamentals, DOM manipulation, game-state logic, and UI responsiveness.
+This project focuses on a classic browser game to demonstrate core frontend fundamentals like DOM updates, state handling, interaction logic, and responsive UI behavior.
+
+## Solution
+
+A lightweight Tic-Tac-Toe implementation with player-versus-computer gameplay, winner detection, draw handling, and a responsive layout that works on desktop and mobile.
 
 ## Features
 
@@ -27,6 +31,12 @@ This project is a lightweight Tic-Tac-Toe implementation focused on clean gamepl
 - CSS
 - JavaScript
 
+## Architecture
+
+```text
+User click -> DOM event -> game state update -> win/draw check -> UI render
+```
+
 ## Project Structure
 
 ```text
@@ -42,7 +52,7 @@ Tic-Tac-Toe/
       mobile.png
 ```
 
-## Run Locally
+## Setup
 
 ### 1. Clone the repository
 
@@ -51,13 +61,17 @@ git clone https://github.com/tauqxxr7/Tic-Tac-Toe.git
 cd Tic-Tac-Toe
 ```
 
-### 2. Open the project
+### 2. Run locally
 
 Open `index.html` in your browser.
 
-If you use VS Code, you can also run it with Live Server for a smoother local preview.
+If you use VS Code, Live Server works well for local preview.
 
-## Screenshots
+## Environment Variables
+
+No environment variables are required for this project.
+
+## Screenshots / Demo
 
 ### Desktop Preview
 
@@ -67,13 +81,22 @@ If you use VS Code, you can also run it with Live Server for a smoother local pr
 
 ![Mobile Preview](./src/images/mobile.png)
 
+## Live Demo
+
+- Demo: `Deployment in progress`
+- Source code: `https://github.com/tauqxxr7/Tic-Tac-Toe`
+
 ## Future Improvements
 
 - Score tracking across rounds
-- Difficulty levels for computer moves
-- Better animation feedback
-- Dark mode or theme variants
+- Difficulty levels for the computer opponent
+- Better animations and feedback
+- Theme variants
 
-## Notes
+## Author
 
-This README intentionally replaces outdated inherited references and third-party contact links so the repository reflects the current project ownership and portfolio quality.
+Built by **Tauqeer Bharde** as a frontend fundamentals project with clean interaction logic and responsive UI work.
+
+## Suggested GitHub Topics
+
+`javascript, game, html, css, beginner-project`
