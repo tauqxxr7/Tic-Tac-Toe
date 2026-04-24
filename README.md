@@ -1,109 +1,79 @@
-# 🎮 JavaScript XO Game
+# Tic-Tac-Toe
 
-This is a **Tic-Tac-Toe (XO) game** implemented using **HTML, CSS, and JavaScript**. The game allows **two players** to compete on a **3x3 grid**.  
+> Simple browser-based Tic-Tac-Toe game built with HTML, CSS, and JavaScript.
 
-## 👀 Preview
+[![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/docs/Web/HTML)
+[![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-111827?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](https://developer.mozilla.org/docs/Web/JavaScript)
 
-### 💻 **Desktop**
+[![Source Code](https://img.shields.io/badge/Source_Code-111827?style=for-the-badge&logo=github&logoColor=white)](https://github.com/tauqxxr7/Tic-Tac-Toe)
+
+## Overview
+
+This project is a lightweight Tic-Tac-Toe implementation focused on clean gameplay, responsive styling, and browser-based interaction. It is a smaller JavaScript project in the portfolio, but it still demonstrates front-end fundamentals, DOM manipulation, game-state logic, and UI responsiveness.
+
+## Features
+
+- 3x3 game board
+- Player vs computer gameplay
+- Winner detection and draw handling
+- Highlighted winning cells
+- Restart button
+- Responsive layout for desktop and mobile
+
+## Tech Stack
+
+- HTML
+- CSS
+- JavaScript
+
+## Project Structure
+
+```text
+Tic-Tac-Toe/
+  index.html
+  src/
+    css/
+      style.css
+    js/
+      script.js
+    images/
+      desktop.png
+      mobile.png
+```
+
+## Run Locally
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/tauqxxr7/Tic-Tac-Toe.git
+cd Tic-Tac-Toe
+```
+
+### 2. Open the project
+
+Open `index.html` in your browser.
+
+If you use VS Code, you can also run it with Live Server for a smoother local preview.
+
+## Screenshots
+
+### Desktop Preview
+
 ![Desktop Preview](./src/images/desktop.png)
 
-### 📱 **Mobile**
+### Mobile Preview
+
 ![Mobile Preview](./src/images/mobile.png)
 
-## 🚀 Features 
+## Future Improvements
 
-- ✅ **Responsive Design:** The game adapts to **all screen sizes**.
-- 🎮 **Interactive Game Board:** Players can **place X or O** by clicking on cells.
-- 🏆 **Winner Highlight:** The **winning combination** is highlighted in **green**.
-- 🤝 **Draw Detection:** If the game ends in a draw, a **message is displayed**.
-- 🔄 **Play Again Button:** A **restart button** allows players to reset the game and play again.
+- Score tracking across rounds
+- Difficulty levels for computer moves
+- Better animation feedback
+- Dark mode or theme variants
 
-## 🛠️ Installation  
+## Notes
 
-To set up and run the XO Game on your local machine:  
-
-### 1️⃣ **Clone the Repository**  
-```bash
-git clone https://github.com/Iqbolshoh/javascript-xo-game.git
-```
-### 2️⃣ **Navigate to the Project Directory**  
-```bash
-cd javascript-xo-game
-```
-### 3️⃣ **Open the `index.html` File**  
-Simply open the `index.html` file in any modern **web browser** to start playing.  
-
-## 🖥 Technologies Used
-![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1C.svg?style=for-the-badge&logo=javascript&logoColor=black)
-
-## 📜 License
-This project is open-source and available under the **MIT License**.
-
-## 🤝 Contributing  
-🎯 Contributions are welcome! If you have suggestions or want to enhance the project, feel free to fork the repository and submit a pull request.
-
-## 📬 Connect with Me  
-💬 I love meeting new people and discussing tech, business, and creative ideas. Let’s connect! You can reach me on these platforms:
-
-<div align="center">
-  <table>
-    <tr>
-      <td>
-        <a href="https://iqbolshoh.uz" target="_blank">
-          <img src="https://img.icons8.com/color/48/domain.png" 
-               height="40" width="40" alt="Website" title="Website" />
-        </a>
-      </td>
-      <td>
-        <a href="mailto:iilhomjonov777@gmail.com" target="_blank">
-          <img src="https://github.com/gayanvoice/github-active-users-monitor/blob/master/public/images/icons/gmail.svg"
-               height="40" width="40" alt="Email" title="Email" />
-        </a>
-      </td>
-      <td>
-        <a href="https://github.com/iqbolshoh" target="_blank">
-          <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/github.svg"
-               height="40" width="40" alt="GitHub" title="GitHub" />
-        </a>
-      </td>
-      <td>
-        <a href="https://www.linkedin.com/in/iqbolshoh/" target="_blank">
-          <img src="https://github.com/gayanvoice/github-active-users-monitor/blob/master/public/images/icons/linkedin.svg"
-               height="40" width="40" alt="LinkedIn" title="LinkedIn" />
-        </a>
-      </td>
-      <td>
-        <a href="https://t.me/iqbolshoh_777" target="_blank">
-          <img src="https://github.com/gayanvoice/github-active-users-monitor/blob/master/public/images/icons/telegram.svg"
-               height="40" width="40" alt="Telegram" title="Telegram" />
-        </a>
-      </td>
-      <td>
-        <a href="https://wa.me/998997799333" target="_blank">
-          <img src="https://github.com/gayanvoice/github-active-users-monitor/blob/master/public/images/icons/whatsapp.svg"
-               height="40" width="40" alt="WhatsApp" title="WhatsApp" />
-        </a>
-      </td>
-      <td>
-        <a href="https://instagram.com/iqbolshoh_777" target="_blank">
-          <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg"
-               height="40" width="40" alt="Instagram" title="Instagram" />
-        </a>
-      </td>
-      <td>
-        <a href="https://x.com/iqbolshoh_777" target="_blank">
-          <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"
-               height="40" width="40" alt="X" title="X (Twitter)" />
-        </a>
-      </td>
-      <td>
-        <a href="https://www.youtube.com/@Iqbolshoh_777" target="_blank">
-          <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg"
-               height="40" width="40" alt="YouTube" title="YouTube" />
-        </a>
-      </td>
-    </tr>
-  </table>
-</div>
+This README intentionally replaces outdated inherited references and third-party contact links so the repository reflects the current project ownership and portfolio quality.
