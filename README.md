@@ -97,6 +97,10 @@ No environment variables are required for this project.
 
 Built by **Tauqeer Bharde** as a frontend fundamentals project with clean interaction logic and responsive UI work.
 
+## Recommended Repo Description
+
+Classic Tic-Tac-Toe game built with HTML, CSS, and JavaScript.
+
 ## Suggested GitHub Topics
 
 `javascript, game, html, css, beginner-project`
